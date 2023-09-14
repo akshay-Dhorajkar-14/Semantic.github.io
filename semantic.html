@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic</title>
+    <style>
+      *{
+          margin:0%
+          padding:0%
+          box-sizing:border-box
+      }
+      #main-header{
+          height: 10vh;
+          background-color: aquamarine;
+          text-align: center;
+          padding-top: 20px;
+      }
+      #main-footer{
+          height: 10vh;
+          background: yellow;
+          text-decoration: center;
+          padding-top;20px
+      }
+      aside{
+          height: 80vh;
+          background-color: yellowgreen;
+          width: 30%;
+          float: left;
+          text-align: center;
+      }
+      .sub-header{
+          height: 10vh;
+          background-color: rgb(31, 48, 42);
+          text-align: center;
+      }
+      article{
+          height: 60vh;
+          background-color: blue;
+          text-align: center;
+      }
+      #sub-footer{
+          height: 10vh;
+          background-color: blueviolet;
+          text-align: center;
+      }
+      .main-footer{
+          text-align: center;
+          height: 10vh;
+          background-color: rgb(126, 112, 112);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header start -->
+    <header id="main-header">HEADER+NAV</header>
+    <!-- header end -->
+
+    <!-- section start -->
+    <section>
+      <aside>Aside</aside>
+      <header class="sub-header">SUB HEADER</header>
+      <article>Article</article>
+      <footer id="sub-footer">SUB FOOTER</footer>
+    </section>
+
+    <!--section end  -->
+
+    <!-- footer start -->
+    <footer class="main-footer">MAIN FOOTER</footer>
+    <!-- footer end -->
+  </body>
+</html>
